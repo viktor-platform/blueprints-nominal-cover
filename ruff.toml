@@ -1,0 +1,27 @@
+fix = true
+line-length = 120
+src = ["app", "tests"]
+[format]
+docstring-code-format = true
+[lint]
+extend-select = ["D", "I", "PL"]
+ignore = ["D100"]
+[lint.per-file-ignores]
+"test/*" = ["D101"]
+[lint.isort]
+force-single-line = true
+known-first-party = ["viktor"]
+known-third-party = [
+    "matplotlib",
+    "munch",
+    "numpy",
+    "blue-prints",
+    "pandas",
+    "requests",
+    "scipy",
+    "shapely",
+    "pytz",
+    "typing_extensions",
+]
+[lint.pydocstyle]
+convention = "numpy"
