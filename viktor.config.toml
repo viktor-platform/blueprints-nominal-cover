@@ -1,0 +1,5 @@
+registered_name = "blueprints-concrete-cover"
+app_type = "simple"
+python_version = "3.13"
+welcome_text = "welcome.md"
+assets_path = "assets"

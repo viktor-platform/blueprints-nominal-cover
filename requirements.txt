@@ -1,0 +1,4 @@
+viktor >= 14.20.0
+markdown ~= 3.7
+tomli ~= 2.2.1
+blue-prints >= 0.1.1
